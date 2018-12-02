@@ -1,0 +1,39 @@
+{
+  "name": "bruno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "Aaron Adams <aadams99@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-preset-zero": "^0.6.2",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-react-inline-elements": "^7.0.0",
+    "@babel/plugin-transform-react-jsx-self": "^7.0.0",
+    "@babel/plugin-transform-react-jsx-source": "^7.0.0",
+    "aliases": "^1.0.0",
+    "apollo-server-express": "^2.2.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "merge-graphql-schemas": "^1.5.8",
+    "pg": "^7.7.1",
+    "sequelize": "^4.41.2"
+  }
+}
