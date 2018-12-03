@@ -13,7 +13,7 @@ const allUsersQuery = gql`
   }
 `;
 
-const theRender = ({ loading, error, data }) => {
+const render = ({ loading, error, data }) => {
   if (loading) return <h4>Loading...</h4>;
   if (error) console.log(error);
   console.log(data);
@@ -30,5 +30,5 @@ const theRender = ({ loading, error, data }) => {
 
 // export default graphql(allUsersQuery)(Home);
 export default () => (
-  <Query query={allUsersQuery}>{theRender}</Query>
+  <Query query={allUsersQuery}>{render}</Query>
 );
